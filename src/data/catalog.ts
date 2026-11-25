@@ -1,3 +1,21 @@
+import brandLogo from '../assets/images/equipment/brand-logo.svg';
+import eq01 from '../assets/images/equipment/eq_01.png';
+import eq02 from '../assets/images/equipment/eq_02.png';
+import eq03 from '../assets/images/equipment/eq_03.png';
+import eq04 from '../assets/images/equipment/eq_04.png';
+import eq05 from '../assets/images/equipment/eq_05.png';
+import eq06 from '../assets/images/equipment/eq_06.png';
+import eq07 from '../assets/images/equipment/eq_07.png';
+import eq08 from '../assets/images/equipment/eq_08.png';
+import eq09 from '../assets/images/equipment/eq_09.png';
+import eq10 from '../assets/images/equipment/eq_10.png';
+import eq11 from '../assets/images/equipment/eq_11.png';
+import eq12 from '../assets/images/equipment/eq_12.png';
+import eq13 from '../assets/images/equipment/eq_13.png';
+import eq14 from '../assets/images/equipment/eq_14.png';
+import eq15 from '../assets/images/equipment/eq_15.png';
+import eq16 from '../assets/images/equipment/eq_16.png';
+
 export type CategoryId =
   | 'pumps'
   | 'motors'
@@ -36,24 +54,24 @@ export interface EquipmentItem {
 }
 
 export const IMAGES = {
-  logo: '/src/assets/images/equipment/brand-logo.svg',
-  hero: '/src/assets/images/equipment/eq_05.png',
-  pumps: '/src/assets/images/equipment/eq_01.png',
-  motors: '/src/assets/images/equipment/eq_02.png',
-  protectors: '/src/assets/images/equipment/eq_03.png',
-  intakes: '/src/assets/images/equipment/eq_04.png',
-  mfn: '/src/assets/images/equipment/eq_05.png',
-  kzp: '/src/assets/images/equipment/eq_06.png',
-  ursg: '/src/assets/images/equipment/eq_07.png',
-  sgmp: '/src/assets/images/equipment/eq_08.png',
-  fsp: '/src/assets/images/equipment/eq_09.png',
-  mvtf: '/src/assets/images/equipment/eq_10.png',
-  kop: '/src/assets/images/equipment/eq_11.png',
-  pgpik: '/src/assets/images/equipment/eq_12.png',
-  mvf: '/src/assets/images/equipment/eq_13.png',
-  mvs: '/src/assets/images/equipment/eq_14.png',
-  bof: '/src/assets/images/equipment/eq_15.png',
-  kdf: '/src/assets/images/equipment/eq_16.png',
+  logo: brandLogo,
+  hero: eq05,
+  pumps: eq01,
+  motors: eq02,
+  protectors: eq03,
+  intakes: eq04,
+  mfn: eq05,
+  kzp: eq06,
+  ursg: eq07,
+  sgmp: eq08,
+  fsp: eq09,
+  mvtf: eq10,
+  kop: eq11,
+  pgpik: eq12,
+  mvf: eq13,
+  mvs: eq14,
+  bof: eq15,
+  kdf: eq16,
 } as const;
 
 export const CATEGORIES: { id: CategoryId; label: string; shortLabel: string; countNote: string }[] = [
